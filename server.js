@@ -1,6 +1,5 @@
 const express = require('express');
 const path = require('path');
-const environment = require('./src/environments/environment');
 const nomeApp = process.env.npm_package_name;
 const app = express();  
 
