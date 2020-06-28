@@ -1,4 +1,5 @@
 import { Component, OnInit} from '@angular/core';
+import * as environment from '../../../environments/environment.js';
 
 @Component({
   selector: 'app-landing',
@@ -6,8 +7,8 @@ import { Component, OnInit} from '@angular/core';
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent implements OnInit {
-  login="http://localhost:3000/";
-  cadastrar = "http://localhost:3000/SignUp";
+  login=environment.loginUrl
+  cadastrar = environment.signUpUrl;
 
   constructor() { }
 
