@@ -12,6 +12,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:
 	```shell
 	npm install @angular/cli --global
 	```
+
 * Modules Versions
 	* AngularCLI: 6.0.7
 	* Angular: 6.0.3
@@ -30,6 +31,8 @@ npm install
 ```
 
 O projeto será baixado e as dependências serão instaladas.
+
+* NÃO SE ESQUEÇA DE BAIXAR AS DEPENDENCIAS DO PROJETO 
 
 ### Building
 
