@@ -1,0 +1,21 @@
+.gradiente {
+    height: 920px;
+    width: 100%;
+    background: linear-gradient(black, #333f42);
+}
+
+/* @font-face {
+    font-family: 'DecoturalCG';
+    src: url("assets/fontes/DecoturalCG.ttf");
+    font-weight: normal;
+    font-style: normal;
+
+
+} */
+ 
+.Titulo {
+
+    font-size: 61pt;
+    text-align: center;
+    color: white;
+}
