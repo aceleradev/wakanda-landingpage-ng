@@ -1,8 +1,29 @@
-.button {
+@import url(//db.onlinewebfonts.com/c/457055c70a9c98aa64002f05d6652edc?family=ITC+Eras);
+
+.button-preCadastro{
     background-color: #0000ff;
-    font-family: "Eras Demi ITC";
+    font-family: "ITC Eras";
+    border: none;
+    padding: 0.75em 1.5em;
+    margin-right: 1.25em;
+    text-transform: uppercase;
 }
 
 .navBackground {
     background-color: #000630;
+}
+
+.button-contato, .button-login {
+    padding: 0 2em;
+    text-transform: uppercase;
+    font-family: "ITC Eras";
+}
+
+@font-face {font-family: "ITC Eras";
+    src: url("//db.onlinewebfonts.com/t/457055c70a9c98aa64002f05d6652edc.eot");
+    src: url("//db.onlinewebfonts.com/t/457055c70a9c98aa64002f05d6652edc.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/457055c70a9c98aa64002f05d6652edc.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/457055c70a9c98aa64002f05d6652edc.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/457055c70a9c98aa64002f05d6652edc.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/457055c70a9c98aa64002f05d6652edc.svg#ITC Eras") format("svg"); 
 }
