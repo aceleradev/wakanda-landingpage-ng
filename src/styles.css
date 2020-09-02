@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: "Eras Demi ITC";
-    src: url('assets/ErasDemiITC.TTF') format('truetype');
+    src: url('/assets/ErasDemiITC.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
