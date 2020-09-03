@@ -1,3 +1,53 @@
+@font-face {
+    font-family: DecoturaICG;
+    src: url("/assets/font/DecoturaICG.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: ErasDemiITC;
+    src: url("/assets/font/ErasDemiITC.ttf") format("truetype");
+}
+ 
+ 
 body{
-    background: 333f42;
+    background: #333f42;
+
+}
+
+h2{
+    color: white;
+    font-family: DecoturaICG;
+    font-size: 34.67pt
+}
+
+form label{
+    color: white;
+    font-family: ErasDemiITC;
+    font-weight: bold;
+    font-size: 20pt;
+    margin-bottom: .0rem;  
+}
+
+#box-center{
+    margin-top: 130px;
+}
+
+input{
+    margin-top: 1px;
+    font-size: 17pt;
+}
+
+#bt-center{
+    text-align: center;
+}
+
+button{
+    border-radius: 10px;
+    background: #00062f;
+    border-color: #6effd8;
+    border-width: 2px 5px 2px 5px;
+    font-size: 14pt;
+    padding-left: 50px;
+    padding-right: 50px;
+    
 }
