@@ -1,21 +1,11 @@
-@font-face {
-    font-family: DecoturaICG;
-    src: url("/src/assets/font/DecoturaICG.ttf") format("truetype");
-}
-
-@font-face {
-    font-family: ErasDemiITC;
-    src: url("/assets/font/ErasDemiITC.ttf") format("truetype");
-}
- 
 body{
     background: #333f42;
 }
 
 .titulo{
     font-family: DecoturaICG;
-    color: red;
-    font-size: 34.67pt;
+    color: white;
+    font-size: 74pt;
 }
 
 form label{
