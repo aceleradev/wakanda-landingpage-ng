@@ -8,24 +8,41 @@
    justify-content: center; 
 
 }
-.texto  h1{
+.texto {
+    margin-bottom: 19.5vh;
+}
+.texto  h1{ 
     color:#2971ff;
     text-align:center;
-    font-size: 50pt; 
+    font-size: 129pt; 
     font-family:  DecoturaICG;
+    margin-bottom: 0pt;
+    padding-bottom: 0pt;
 }
 .texto h2{
     color:white ;
     text-align:center;
-    font-size: 19px;
-    
-    font-family:  'Eras Medium ITC';
+    font-size: 19pt;
+    font-family:  erasMedium ;
 }
 .botao-jumb{
-    text-align:center;
-    color: #00062f;
+    text-align: center;
+    margin-bottom: 4.5vh;
+    
     
 
 }
+
+.botao-jumb > button{
+    border: 2px solid #6effd8;
+    border-radius: 8px;
+    border-width: 2px 6px;
+    background-color: #00062f;
+    padding: 2vh 4vh;
+    color: white;
+
+}
+
+
 
 

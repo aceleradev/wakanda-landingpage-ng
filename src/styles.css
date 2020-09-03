@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: DecoturaICG;
+    src: url("/assets/DecoturaICG.ttf");
+
+}
+
+@font-face {
+    font-family: erasMedium;
+    src: url("/assets/eras-medium-itc.ttf");
+   
+}
+
+@font-face {
+    font-family: erasDemi;
+    src: url("/assets/eras-demi-itc.ttf");
+    
+}
