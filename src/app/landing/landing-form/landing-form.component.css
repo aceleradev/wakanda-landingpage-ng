@@ -12,10 +12,15 @@ body{
 
 form label{
     color: white;
-    font-family: ErasDemiITC;
+    font-family: ErasBold;
     font-weight: bold;
     font-size: 20pt;
     margin-bottom: .0rem;  
+}
+
+::placeholder{
+    font-family: ErasBold;
+    font-size: 17pt;
 }
 
 #box-center{
@@ -36,6 +41,7 @@ button{
     background: #00062f;
     border-color: #6effd8;
     border-width: 2px 5px 2px 5px;
+    font-family: ErasDemiITC;
     font-size: 14pt;
     padding-left: 50px;
     padding-right: 50px;
