@@ -23,6 +23,9 @@
 }
 
 img {
+    position: relative;
+    left: 10px;
+    top: 11px;
     align-items: center;
     width: 70px;
     height: 70px;
@@ -30,12 +33,16 @@ img {
 
 .img-special {
 
+    position: relative;
+    left: 15px;
+    top: 15px;
     height: 60px;
     width: 60px;
 
 }
 
 .circle {
+    position: static;
     background-color: black;
     border: 5px solid #00FFFF;
     border-radius: 100%;
