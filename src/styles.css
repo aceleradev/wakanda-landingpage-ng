@@ -11,3 +11,8 @@
     font-family: ErasDemiITC;
     src: url('../src/assets/fonts/erasDemi/eras-demi-itc.ttf') format("truetype");
 }
+
+@font-face {
+    font-family: ErasBold;
+    src: url('../src/assets/fonts/erasBold/eras-bold-itc.ttf') format("truetype");
+}
