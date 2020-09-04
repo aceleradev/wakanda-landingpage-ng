@@ -1,0 +1,23 @@
+@font-face {
+    font-family: DecoturaICG;
+    src: url('/assets/fontes/deconturaICG/decoturaicg-webfont.woff2') format('woff2'),
+        url('/assets/fontes/deconturaICG/decoturaicg-webfont.woff') format('woff'),
+        url("/assets/fontes/deconturaICG/DecoturaICG.ttf") format("truetype");
+    /* o caminho q tava errado kkkkk */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gradiente {
+    height: 920px;
+    width: 100%;
+    background: linear-gradient(black, #4D4D4D);
+}
+ 
+.Titulo {
+    font-family: DecoturaICG;
+    font-size: 61pt;
+    text-align: center;
+    color: white;
+    padding: 1em;
+}
