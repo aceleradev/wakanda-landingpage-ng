@@ -16,3 +16,8 @@
     font-family: ErasBold;
     src: url('../src/assets/fonts/erasBold/eras-bold-itc.ttf') format("truetype");
 }
+
+@font-face {
+    font-family: ErasMedium;
+    src: url('../src/assets/fonts/erasMedium/eras-medium-itc.ttf') format("truetype");
+}

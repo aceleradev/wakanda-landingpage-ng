@@ -7,24 +7,26 @@ body{
 .titulo{
     font-family: DecoturaICG;
     color: white;
-    font-size: 74pt;
+    font-size: 54pt;
+    text-shadow: #000 6px 4px 2px
 }
 
 form label{
     color: white;
     font-family: ErasBold;
     font-weight: bold;
-    font-size: 20pt;
+    font-size: 15pt;
     margin-bottom: .0rem;  
 }
 
 ::placeholder{
-    font-family: ErasBold;
-    font-size: 17pt;
+    font-family: ErasMedium;
+    font-size: 13pt;
 }
 
 #box-center{
-    margin-top: 130px;
+   align-content: center;
+    margin-top: 80px;
 }
 
 input{
@@ -40,10 +42,16 @@ button{
     border-radius: 10px;
     background: #00062f;
     border-color: #6effd8;
-    border-width: 2px 5px 2px 5px;
+    border-width: 3px 5px 3px 5px;
     font-family: ErasDemiITC;
     font-size: 14pt;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
     
+}
+
+.rounded{
+    border-radius: 500%;
 }
