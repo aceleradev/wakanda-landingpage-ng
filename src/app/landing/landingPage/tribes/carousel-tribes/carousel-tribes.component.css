@@ -2,6 +2,36 @@
 
     background: black;
 
-    border: #6effd8;
+    border: 1px solid #00FFFF;
 
+}
+
+.coluna-1 {
+
+    display: inline-flex;
+    background-color: black;
+  
+
+}
+.imagem-carrossel {
+
+    position: relative;
+    width: 10px;
+    height: 150px;
+
+}
+
+
+.texto-tribos {
+        font-family: DecoturaICG;
+        font-size: 53pt;
+        text-align: left;
+        color: white;
+}
+
+.sub-titulo {
+    border: 1px solid #00FFFF;
+    font-family: DecoturaICG;
+    font-size: 20pt ;
+    color: white;
 }
