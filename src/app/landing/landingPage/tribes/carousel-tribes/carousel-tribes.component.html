@@ -1,33 +1,51 @@
-<p>
-  carousel-tribes works!
-</p>
-
-
- <div id="carouselExampleIndicators" class="carousel slide carrossel" data-ride="carousel">
-
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=Primeiro Slide" alt="Primeiro Slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Segundo Slide" alt="Segundo Slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Terceiro Slide" alt="Terceiro Slide">
-      </div>
+<ngb-carousel class="container mb-4">
+  <ng-template ngbSlide id="1">
+    <div class="picsum-img-wrapper">
+      <section class="d-block w-100" alt="Random first slide" style="height: 500px; width: 800px; background-color: black; border: 1px solid #00ffff;">
+        tribo de 1
+      </section>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Próximo</span>
-    </a>
-    
-</div>
+  </ng-template>
+  <ng-template ngbSlide id="2">
+    <div class="picsum-img-wrapper">
+      <section class="d-block w-100" alt="Random first slide" style="height: 500px; width: 800px; background-color: black; border: 1px solid #00ffff;">
+        tribo de 2
+      </section>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide id="3">
+    <div class="picsum-img-wrapper">
+      <section class="d-block w-100" alt="Random first slide" style="height: 500px; width: 800px; background-color: black; border: 1px solid #00ffff;">
+        tribo de 3
+      </section>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide id="4">
+    <div class="picsum-img-wrapper">
+      <section class="d-block w-100" alt="Random first slide" style="height: 500px; width: 800px; background-color: black; border: 1px solid #00ffff;">
+        tribo de 4
+      </section>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide id="5">
+    <div class="picsum-img-wrapper">
+      <section class="d-block w-100" alt="Random first slide" style="height: 500px; width: 800px; background-color: black; border: 1px solid #00ffff;">
+        tribo de 5
+      </section>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide id="6">
+    <div class="picsum-img-wrapper">
+      <section class="d-block w-100" alt="Random first slide" style="height: 500px; width: 800px; background-color: black; border: 1px solid #00ffff;">
+        tribo de 6
+      </section>
+    </div>
+  </ng-template>
+  <ng-template ngbSlide id="7">
+    <div class="picsum-img-wrapper">
+      <section class="d-block w-100" alt="Random first slide" style="height: 500px; width: 800px; background-color: black; border: 1px solid #00ffff;">
+        tribo de 7
+      </section>
+    </div>
+  </ng-template>
+</ngb-carousel>

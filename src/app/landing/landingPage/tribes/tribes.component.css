@@ -9,9 +9,9 @@
 }
 
 .gradiente {
-    height: 920px;
+    height: 1000px;
     width: 100%;
-    background: linear-gradient(black, #4D4D4D);
+    background: linear-gradient(black, #353535);
 }
  
 .Titulo {
@@ -19,7 +19,11 @@
     font-size: 61pt;
     text-align: center;
     color: white;
-    padding: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 1em;
+    /* padding: 1em; */
+    /* retirado padding-bottom */
 }
 
 img {
@@ -48,4 +52,15 @@ img {
     border-radius: 100%;
     height: 100px;
     width: 100px;
+    box-shadow: 1px 1px 9px 1px #00FFFF; /* adicionado box-shadow */
+    transition: all .2s; /* aumenta de tamanho */
 }
+
+.circle:hover {
+    transform: scale(1.2);
+    backdrop-filter: brightness(100%);
+    cursor: pointer;
+    /* border: 5px solid #0080FF;
+    box-shadow: 1px 1px 15px 1px #0080FF; muda cor e raio do box shadow */
+}
+

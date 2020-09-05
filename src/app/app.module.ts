@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
 import { AppComponent } from './app.component';
 import { LandingModule } from './landing/landing.module';
@@ -11,7 +12,8 @@ import { LandingModule } from './landing/landing.module';
   ],
   imports: [
     BrowserModule,
-    LandingModule
+    LandingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

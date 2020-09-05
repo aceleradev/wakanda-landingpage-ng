@@ -1,5 +1,6 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
+import { NgbCarouselModule } from "@ng-bootstrap/ng-bootstrap"
 
 import { LandingComponent } from "./landingPage/landing.component";
 import { HeaderComponent } from './landingPage/header/header.component';
@@ -12,7 +13,7 @@ import { FooterComponent } from './landingPage/footer/footer.component';
 
 @NgModule({
     declarations: [LandingComponent, HeaderComponent, JumbotronComponent, TribesComponent, ListTribesComponent, CarouselTribesComponent, PreSignupComponent, FooterComponent],
-    imports: [CommonModule],
+    imports: [CommonModule, NgbCarouselModule],
     exports:[LandingComponent]
 })
 export class LandingModule {}
