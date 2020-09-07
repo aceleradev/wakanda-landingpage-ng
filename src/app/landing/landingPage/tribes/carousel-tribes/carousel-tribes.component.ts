@@ -16,8 +16,9 @@ export class CarouselTribesComponent implements OnInit {
     private slideIdService: SlideIdService,
     config: NgbCarouselConfig) {
     config.showNavigationArrows = false;
+    config.showNavigationIndicators = false;
     config.keyboard = false;
-    config.interval = 36000;
+    config.interval = 0;
   }
 
   ngOnInit() {

@@ -1,6 +1,3 @@
-h2 {
-    text-align: end;
-}
 
 .logo {
     position: relative;
@@ -35,6 +32,13 @@ h2 {
 
 .margem {
     margin-right: 5rem !important;
+    text-align: end;
+}
+
+.itens {
+    font-family: ErasMedium;
+    color: white;
+    font-size: 12pt;
 }
 
 .carousel-item {
