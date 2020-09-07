@@ -57,10 +57,10 @@ img {
 }
 
 .circle:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
     backdrop-filter: brightness(100%);
     cursor: pointer;
-    /* border: 5px solid #0080FF;
-    box-shadow: 1px 1px 15px 1px #0080FF; muda cor e raio do box shadow */
+    /* border: 5px solid #0080FF; */
+    box-shadow: 1px 1px 15px 1px #00FFFF; 
 }
 

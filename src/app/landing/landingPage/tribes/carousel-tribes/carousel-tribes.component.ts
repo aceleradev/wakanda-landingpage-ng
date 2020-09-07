@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, ViewChild } from '@angular/core';
 import { NgbCarousel, NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
-import { Observable } from 'rxjs';
+
 import { isUndefined } from 'util';
 import { SlideIdService } from 'src/app/landing/services/slide-id.service';
 
@@ -14,14 +14,16 @@ export class CarouselTribesComponent implements OnInit {
   @ViewChild(NgbCarousel) carousel: NgbCarousel;
   constructor(
     private slideIdService: SlideIdService,
-    config:NgbCarouselConfig) {
-      config.showNavigationArrows=false;
-      config.keyboard=false;
-    }
+    config: NgbCarouselConfig) {
+    config.showNavigationArrows = false;
+    config.keyboard = false;
+    config.interval = 36000;
+  }
 
   ngOnInit() {
     this.carousel.pause();
     this.slideIdService.getId().subscribe(id => {
+      this.carousel.pause();
       console.log("id ativo: " + this.carousel.activeId)
       if (isUndefined(id)) {
         console.log("o id: " + id + ", é indefinido");
