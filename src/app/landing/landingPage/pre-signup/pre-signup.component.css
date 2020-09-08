@@ -1,44 +1,45 @@
 /* AS FONTES AGORA SE ENCONTRAM NO ARQUIVO src/styles.css */
 
-body{
-    background: #4D4D4D; /* PS: eu alterei a cor aq kkkkk */
+body {
+    background: #4D4D4D;
+    /* PS: eu alterei a cor aq kkkkk */
 }
 
-.titulo{
+.titulo {
     font-family: DecoturaICG;
     color: white;
     font-size: 54pt;
     text-shadow: #000 6px 4px 2px
 }
 
-form label{
+form label {
     color: white;
     font-family: ErasBold;
     font-weight: bold;
     font-size: 15pt;
-    margin-bottom: .0rem;  
+    margin-bottom: .0rem;
 }
 
-::placeholder{
+::placeholder {
     font-family: ErasMedium;
     font-size: 13pt;
 }
 
-#box-center{
-   align-content: center;
+#box-center {
+    align-content: center;
     margin-top: 80px;
 }
 
-input{
+input {
     margin-top: 1px;
     font-size: 17pt;
 }
 
-#bt-center{
+#bt-center {
     text-align: center;
 }
 
-button{
+button {
     border-radius: 10px;
     background: #00062f;
     border-color: #6effd8;
@@ -49,9 +50,8 @@ button{
     padding-bottom: 1px;
     padding-left: 30px;
     padding-right: 30px;
-    
 }
 
-.rounded{
+.rounded {
     border-radius: 500%;
 }
