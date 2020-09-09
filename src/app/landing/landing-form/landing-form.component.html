@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="col-sm ml-5 ">
-        <form [formGroup]='signupForm'>
+        <form [formGroup]='signupForm' (submit)='capture()'>
           <div class=" " >
             <div class="form-group ml-5 col-md-10 pt-5 rounded ">
               <label for="nome"> Seu Nome</label>

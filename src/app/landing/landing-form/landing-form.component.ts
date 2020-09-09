@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { ServService } from 'src/app/form/serv.service';
+
 
 
 @Component({
@@ -9,9 +11,12 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 })
 export class LandingFormComponent implements OnInit {
 
-  constructor( private formBuilder: FormBuilder) { }
+  constructor( 
+    private formBuilder: FormBuilder,
+    private envia: ServService){}
 
   signupForm: FormGroup;
+  
 
   ngOnInit() {
 
@@ -34,7 +39,20 @@ export class LandingFormComponent implements OnInit {
         ]
       ]
 
-    });
+    })
   }
+  capture() {
+      const name = this.signupForm.get('name').value;
+      const telephone = this.signupForm.get('telephone').value;
+      const email = this.signupForm.get('email').value;
 
+      this.envia
+          .interface(name, telephone, email)
+          .subscribe(
+              () => console.log('enviado'),
+              err => {
+                console.log(err);
+              }
+          )
+  }
 }
