@@ -1,19 +1,26 @@
-<nav class="navbar navbar-light bg-light navbar-static-top">
-  <span class="navbar-brand mb-0 h1"><p class="h1">DrillDev</p></span>
+<nav class="navbar navbar-light navbar-static-top navBackground">
+  <span class="navbar-brand mb-0 h1"><p class="h1"><img src="../../../../assets/images/wakanda_logo.png"></p></span>
   
-  <div>
+  <div class="caixa"> 
+    <a 
+    type="button"  
+    [href]="" 
+    class="text-decoration-none text-white button-contato">
+      Contato
+    </a>
+
     <a 
     type="button"  
     [href]="login" 
-    class="text-decoration-none text-white btn btn-primary mr-2">
-      Entra
+    class="text-decoration-none text-white button-login">
+      Login
     </a>
 
     <a 
     type="button" 
     [href]="cadastrar" 
-    class="text-decoration-none text-white btn btn-success">
-      Cadastrar   
+    class="text-decoration-none text-white btn btn-success button-preCadastro">
+      Pré cadastro   
     </a>
 
   </div>
