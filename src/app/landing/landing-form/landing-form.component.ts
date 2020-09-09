@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { ServService } from 'src/app/form/serv.service';
 
-
+import { FormService } from 'src/app/landing/landing-form/services/form.service';
+import { PreCadastro } from './interface/pre-cadastro';
 
 @Component({
   selector: 'app-landing-form',
@@ -11,28 +11,27 @@ import { ServService } from 'src/app/form/serv.service';
 })
 export class LandingFormComponent implements OnInit {
 
-  constructor( 
+  constructor(
     private formBuilder: FormBuilder,
-    private envia: ServService){}
+    private envia: FormService) { }
 
   signupForm: FormGroup;
-  
 
   ngOnInit() {
 
     this.signupForm = this.formBuilder.group({
-      name:['',
+      name: ['',
         [
-           Validators.required,
+          Validators.required,
         ]
       ],
-      telephone:['',
+      telephone: ['',
         [
           Validators.required,
           Validators.minLength(10),
         ]
       ],
-      email:['',  
+      email: ['',
         [
           Validators.required,
           Validators.email
@@ -41,18 +40,21 @@ export class LandingFormComponent implements OnInit {
 
     })
   }
-  capture() {
-      const name = this.signupForm.get('name').value;
-      const telephone = this.signupForm.get('telephone').value;
-      const email = this.signupForm.get('email').value;
 
-      this.envia
-          .interface(name, telephone, email)
-          .subscribe(
-              () => console.log('enviado'),
-              err => {
-                console.log(err);
-              }
-          )
+  capture() {
+    const preCadastro: PreCadastro = this.signupForm.getRawValue() as PreCadastro;
+
+    this.envia
+      .enviarFormulario(preCadastro)
+      .subscribe(
+        (res) => {
+          this.signupForm.reset("");
+          console.log(res.status);
+          console.log('enviado');
+        },
+        err => {
+          console.log(err);
+        }
+      )
   }
 }

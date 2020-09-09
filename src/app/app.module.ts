@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { LandingModule } from './landing/landing.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { LandingModule } from './landing/landing.module';
   ],
   imports: [
     BrowserModule,
-    LandingModule
+    LandingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
