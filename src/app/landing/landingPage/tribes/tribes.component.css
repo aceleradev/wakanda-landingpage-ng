@@ -63,27 +63,3 @@ img {
     /* border: 5px solid #0080FF; */
     box-shadow: 1px 1px 15px 1px #00FFFF; 
 }
-
-.Responsivosmall{
-    position: relative;
-    width: 360px;
-    margin: 0 auto;
-    height: 500px;
-
-}
-
-.Responsivomedium{
-    position: relative;
-    width: 1000px;
-    margin: 0 auto;
-    height: 500px;
-
-}
-
-.Responsivolarge{
-    position: relative;
-    width: 1350px;
-    margin: 0 auto;
-    height: 500px;
-
-}
