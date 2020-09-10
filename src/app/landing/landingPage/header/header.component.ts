@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as environment from '../../../../environments/environment.js';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-header',
@@ -7,13 +8,17 @@ import * as environment from '../../../../environments/environment.js';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  
-  login=environment.loginUrl
+
+  login = environment.loginUrl
   cadastrar = environment.signUpUrl;
 
-  constructor() { }
+  constructor(private scroller: ViewportScroller) { }
 
   ngOnInit() {
+  }
+
+  scroll(id: string) {
+    this.scroller.scrollToAnchor(id);
   }
 
 }
