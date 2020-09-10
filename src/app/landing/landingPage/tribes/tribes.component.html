@@ -3,7 +3,7 @@
 
     <div class="container">
 
-        <div class="d-flex pt-4 mt-5 pb-4 mb-4">
+        <div class="d-flex pt-4 mt-5 pb-4 mb-4" style="padding-left: 40px;">
             <div class="p-2 flex-fill">
                 <div [@openClose]="open[1] ? 'open' : 'closed'" class="circle" (click) = "getSlideId('1')">
                     <img src="\assets\images\icons\icone-1.svg">
@@ -47,6 +47,8 @@
 
             </div>
         </div>
-        <app-carousel-tribes></app-carousel-tribes>
+        <div style="align-self: center;">
+            <app-carousel-tribes></app-carousel-tribes>
+        </div>
     </div>
 </body>
