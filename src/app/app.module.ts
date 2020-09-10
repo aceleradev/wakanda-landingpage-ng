@@ -5,6 +5,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap'
 
 import { AppComponent } from './app.component';
 import { LandingModule } from './landing/landing.module';
+import { AppRoutingModule } from './app.routing.module';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { LandingModule } from './landing/landing.module';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
     BrowserAnimationsModule,
     LandingModule,
     NgbModule
