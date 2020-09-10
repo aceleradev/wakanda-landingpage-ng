@@ -40,3 +40,7 @@
     padding: 2vh 4vh;
     color: white;
 }
+
+.botao-jumb>a:hover {
+    box-shadow: 1px 1px 9px 1px #00FFFF; 
+}
