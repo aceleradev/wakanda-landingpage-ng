@@ -1,48 +1,42 @@
-.custom-jumbotron{
- 
-   background: url('/assets/image/Background_2.png') no-repeat center;
-   background-size: cover;
-   display: flex;
-   align-items: flex-end;
-   height: 76vh; 
-   justify-content: center; 
-
+.custom-jumbotron {
+    background: url('/assets/image/Background_2.png') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    height: 76vh;
+    justify-content: center;
 }
+
 .texto {
     margin-bottom: 18vh;
 }
-.texto  h1{ 
-    color:#2971ff;
-    text-align:center;
-    font-size: 92pt; 
-    font-family:  DecoturaICG;
+
+.texto h1 {
+    color: #2971ff;
+    text-align: center;
+    font-size: 92pt;
+    font-family: DecoturaICG;
     margin-bottom: 0pt;
     padding-bottom: 0pt;
 }
-.texto h2{
-    color:white ;
-    text-align:center;
+
+.texto h2 {
+    color: white;
+    text-align: center;
     font-size: 21.5pt;
-    font-family:  erasMedium ;
+    font-family: erasMedium;
 }
-.botao-jumb{
+
+.botao-jumb {
     text-align: center;
     margin-bottom: 4.5vh;
-    
-    
-
 }
 
-.botao-jumb > button{
+.botao-jumb>a {
     border: 2px solid #6effd8;
     border-radius: 8px;
     border-width: 2px 6px;
     background-color: #00062f;
     padding: 2vh 4vh;
     color: white;
-
 }
-
-
-
-
