@@ -13,7 +13,7 @@
     width: 100%;
     background: linear-gradient(black, #353535);
 }
- 
+
 .Titulo {
     font-family: DecoturaICG;
     font-size: 61pt;
@@ -63,4 +63,3 @@ img {
     /* border: 5px solid #0080FF; */
     box-shadow: 1px 1px 15px 1px #00FFFF; 
 }
-
