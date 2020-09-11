@@ -1,27 +1,21 @@
 <nav class="navbar navbar-light navbar-static-top navBackground">
-  <span class="navbar-brand mb-0 h1"><p class="h1"><img src="../../../../assets/images/wakanda_logo.png"></p></span>
-  
-  <div class="caixa"> 
-    <a 
-    type="button"  
-    [href]="" 
-    class="text-decoration-none text-white button-contato">
+  <span class="navbar-brand mb-0 h1">
+    <p class="h1"><img src="../../../../assets/images/wakanda_logo.png"></p>
+  </span>
+
+  <div class="caixa">
+    <a type="button" [href]="" class="text-decoration-none text-white button-contato">
       Contato
     </a>
 
-    <a 
-    type="button"  
-    [href]="login" 
-    class="text-decoration-none text-white button-login">
+    <a type="button" [href]="login" class="text-decoration-none text-white button-login">
       Login
     </a>
 
-    <a 
-    type="button" 
-    [href]="cadastrar" 
-    class="text-decoration-none text-white btn btn-success button-preCadastro">
-      Pré cadastro   
+    <a type="button" (click)="scroll('pre-signup')"
+      class="text-decoration-none text-white btn btn-success button-preCadastro">
+      Pré cadastro
     </a>
 
   </div>
-</nav> 
+</nav>

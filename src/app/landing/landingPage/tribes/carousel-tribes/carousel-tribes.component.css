@@ -12,6 +12,22 @@
     height: 160px;
 }
 
+.logo-2 {
+    position: relative;
+    align-items: center;
+    height: 180px;
+    width: 180px;
+    bottom: 50px;
+}
+
+.logo-4 {
+    position: relative;
+    align-items: center;
+    height: 200px;
+    width: 170px;
+    bottom: 50px;
+}
+
 .titulo {
     font-family: DecoturaICG;
     color: white;

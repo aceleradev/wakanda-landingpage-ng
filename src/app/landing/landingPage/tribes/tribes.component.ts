@@ -12,14 +12,14 @@ import { SlideIdService } from '../../services/slide-id.service';
     trigger('openClose', [
 
       state('open', style({
-        transform: "scale(1.3)",
+        transform: "scale(1.2)",
         boxShadow: "1px 1px 15px 1px #00FFFF"
       })),
 
       state('closed', style({})),
 
       transition('closed => open', [
-        animate('0.5s')
+        animate('0.2s')
       ]),
     ])
   ],

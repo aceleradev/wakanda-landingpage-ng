@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ViewportScroller } from '@angular/common';
 
 @Component({
   selector: 'app-jumbotron',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class JumbotronComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scroller: ViewportScroller) { }
 
   ngOnInit() {
+  }
+
+  scroll(id: string) {
+    this.scroller.scrollToAnchor(id);
   }
 
 }
