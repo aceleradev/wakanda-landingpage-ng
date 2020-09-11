@@ -7,6 +7,11 @@
     bottom: 50px;
 }
 
+.novoTamanhoDaLogo {
+    width: 136px;
+    height: 160px;
+}
+
 .logo-2 {
     position: relative;
     align-items: center;
@@ -14,6 +19,7 @@
     width: 180px;
     bottom: 50px;
 }
+
 .logo-4 {
     position: relative;
     align-items: center;
