@@ -56,7 +56,7 @@ button {
 
 button:hover:enabled {
     color: white;
-    box-shadow: 1px 1px 9px 1px #00FFFF;
+    box-shadow: 0 0 9px #00FFFF;
 }
 
 button:hover:disabled {
