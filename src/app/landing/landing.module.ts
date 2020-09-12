@@ -11,7 +11,6 @@ import { ListTribesComponent } from './landingPage/tribes/list-tribes/list-tribe
 import { CarouselTribesComponent } from './landingPage/tribes/carousel-tribes/carousel-tribes.component';
 import { PreSignupComponent } from './landingPage/pre-signup/pre-signup.component';
 import { FooterComponent } from './landingPage/footer/footer.component';
-import { LandingFormComponent } from "./landing-form/landing-form.component";
 
 @NgModule({
     declarations: [
@@ -23,7 +22,6 @@ import { LandingFormComponent } from "./landing-form/landing-form.component";
         CarouselTribesComponent, 
         PreSignupComponent, 
         FooterComponent,
-        LandingFormComponent
     ],
     imports: [CommonModule, NgbCarouselModule,ReactiveFormsModule],
     exports:[LandingComponent]
