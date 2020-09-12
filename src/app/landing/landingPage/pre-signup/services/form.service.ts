@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http'
-import { PreCadastro } from '../interface/pre-cadastro';
 
-const API_URL = 'https://run.mocky.io/v3/00f7ac3d-327a-4a02-9bd2-e99dbf1312e1';
+import { PreCadastro } from '../interface/pre-cadastro';
+import * as environment from '../../../../../environments/environment.js';
+
+const API_URL = environment.preCadUrl;
 
 @Injectable({
   providedIn: 'root'

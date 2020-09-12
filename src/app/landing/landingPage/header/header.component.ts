@@ -9,7 +9,7 @@ import { ViewportScroller } from '@angular/common';
 })
 export class HeaderComponent implements OnInit {
 
-  login = environment.loginUrl
+  login = environment.loginUrl;
   cadastrar = environment.signUpUrl;
 
   constructor(private scroller: ViewportScroller) { }

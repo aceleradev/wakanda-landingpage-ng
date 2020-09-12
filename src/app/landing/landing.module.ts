@@ -1,6 +1,6 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
-import { NgbCarouselModule } from "@ng-bootstrap/ng-bootstrap"
+import { NgbCarouselModule, NgbModalModule } from "@ng-bootstrap/ng-bootstrap"
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { LandingComponent } from "./landingPage/landing.component";
@@ -11,6 +11,7 @@ import { ListTribesComponent } from './landingPage/tribes/list-tribes/list-tribe
 import { CarouselTribesComponent } from './landingPage/tribes/carousel-tribes/carousel-tribes.component';
 import { PreSignupComponent } from './landingPage/pre-signup/pre-signup.component';
 import { FooterComponent } from './landingPage/footer/footer.component';
+import { ModalDeCadastroComponent } from './modal-template/modal-de-cadastro/modal-de-cadastro.component';
 
 @NgModule({
     declarations: [
@@ -21,9 +22,16 @@ import { FooterComponent } from './landingPage/footer/footer.component';
         ListTribesComponent, 
         CarouselTribesComponent, 
         PreSignupComponent, 
-        FooterComponent,
+        FooterComponent, 
+        ModalDeCadastroComponent
     ],
-    imports: [CommonModule, NgbCarouselModule,ReactiveFormsModule],
-    exports:[LandingComponent]
+    imports: [
+        CommonModule,
+        NgbCarouselModule,
+        ReactiveFormsModule,
+        NgbModalModule
+    ],
+    exports:[LandingComponent],
+    entryComponents: [ModalDeCadastroComponent],
 })
 export class LandingModule {}
