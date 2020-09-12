@@ -8,25 +8,63 @@
         </div>
       </div>
       <div class="col-sm ml-5 ">
-        <form>
-          <div class=" ">
+        <form [formGroup]='signupForm' (submit)='capture()'>
+          <div class=" " >
             <div class="form-group ml-5 col-md-10 pt-5 rounded ">
               <label for="nome"> Seu Nome</label>
-              <input type="text" class="form-control form-control-sm " id="nome" placeholder="Digite seu email aqui">
+              <input 
+              formControlName="name"
+              type="text" 
+              class="form-control form-control-sm " 
+              id="nome" 
+              placeholder="Digite seu nome aqui"
+              autofocus
+              >
+            <small
+              *ngIf="signupForm.get('name').errors?.required"
+              class="text-danger d-block mt-2" >
+              Name is required!
+            </small>
             </div>
             <div class="form-group ml-5 col-md-10 pt-3 rounded">
-              <label for="telefone"> Telefone</label>
-              <input type="tel" class="form-control form-control-sm " id="telefone"
-                placeholder="Digite seu telefone aqui">
+              <label for= "telefone"> Telefone</label>
+              <input
+                formControlName="telephone" 
+                type="tel" 
+                class="form-control form-control-sm " 
+                id="telefone"
+                placeholder="(XX) XXXX-XXXX"
+                autofocus
+              >
+              <small
+                *ngIf="signupForm.get('telephone').errors?.required"
+                class="text-danger d-block mt-2">
+                Telephone is required!
+              </small>
             </div>
             <div class="form-group ml-5 col-md-10 pt-3">
-              <label for="email"> Seu Email</label>
-              <input type="email" class="form-control form-control-sm rounded" id="email"
-                placeholder="Digite seu email aqui">
+              <label for= "email"> Seu Email</label>
+              <input
+                formControlName="email"
+                type="email" 
+                class="form-control form-control-sm rounded" 
+                id="email" 
+                placeholder="Digite seu email aqui"
+                autofocus
+              >
+              <small
+                *ngIf="signupForm.get('email').errors?.required" 
+                class="text-danger d-block mt-2">
+                E-mail is required!
+              </small>
             </div>
           </div>
           <div id="bt-center">
-            <button type="submit" class="btn btn-primary btn-sm mt-3 mb-5 ">ENVIAR</button>
+            <button
+              [disabled]="signupForm.invalid" 
+              type="submit" 
+              class="btn mt-3 mb-5 ">ENVIAR
+            </button>
           </div>
         </form>
       </div>
