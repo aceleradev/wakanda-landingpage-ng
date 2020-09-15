@@ -27,6 +27,13 @@
     width: 170px;
     bottom: 50px;
 }
+.logo-5 {
+    position: relative;
+    align-items: center;
+    height: 200px;
+    width: 170px;
+    bottom: 50px;
+}
 
 .titulo {
     font-family: DecoturaICG;
