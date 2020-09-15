@@ -27,6 +27,14 @@
     width: 170px;
     bottom: 50px;
 }
+
+.logo-6 {
+    position: relative;
+    align-items: center;
+    height: 180px;
+    width: 150px;
+}
+
 .logo-5 {
     position: relative;
     align-items: center;
