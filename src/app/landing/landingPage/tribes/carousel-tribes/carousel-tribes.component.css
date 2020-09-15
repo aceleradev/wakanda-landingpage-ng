@@ -1,0 +1,92 @@
+
+.logo {
+    position: relative;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    bottom: 50px;
+}
+
+.novoTamanhoDaLogo {
+    width: 136px;
+    height: 160px;
+}
+
+.logo-2 {
+    position: relative;
+    align-items: center;
+    height: 180px;
+    width: 180px;
+    bottom: 50px;
+}
+
+.logo-4 {
+    position: relative;
+    align-items: center;
+    height: 200px;
+    width: 170px;
+    bottom: 50px;
+}
+.logo-6 {
+    position: relative;
+    align-items: center;
+    height: 180px;
+    width: 150px;
+    bottom: 50px;
+}
+
+.titulo {
+    font-family: DecoturaICG;
+    color: white;
+    font-size: 43pt;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 55px;
+}
+
+.sub-titulo {
+    font-family: ErasMedium;
+    color: white;
+    font-size: 10pt;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.habilidades {
+    font-family: ErasMedium;
+    color: white;
+    font-size: 20pt;
+}
+
+.margem {
+    margin-right: 5rem !important;
+    text-align: end;
+}
+
+.itens {
+    font-family: ErasMedium;
+    color: white;
+    font-size: 12pt;
+}
+
+.carousel-item {
+    /* Force to always be block */
+    display: block !important;
+    z-index: 1;
+    position: absolute;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all 0.2s;
+    visibility: hidden;
+}
+
+.carousel-item.active {
+    position: relative;
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+}
+
+#descricao {
+    color: white;
+}

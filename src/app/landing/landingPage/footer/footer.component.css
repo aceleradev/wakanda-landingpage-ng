@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'eras-mediummedium';
+    src: url('/assets/fontes/erasmediumitc-webfont.woff2') format('woff2'),
+         url('/assets/fontes/erasmediumitc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+footer  {
+    background-color: #001228 ;
+    padding: 2em 0px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-fim{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    }
+
+.copyright{
+    font-size:10pt ; 
+    font-family: 'eras-mediummedium';
+    color: #ffffff; 
+    text-align: right;
+    margin: 0;
+    margin-right: 3em;
+    letter-spacing: 2.5px;
+    font-style: italic;
+    }
+    
+.logo{
+    margin: 0;
+    margin-left: 3em;
+    }

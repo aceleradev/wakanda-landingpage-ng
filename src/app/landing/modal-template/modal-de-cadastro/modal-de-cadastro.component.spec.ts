@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LandingFormComponent } from './landing-form.component';
+import { ModalDeCadastroComponent } from './modal-de-cadastro.component';
 
-describe('LandingFormComponent', () => {
-  let component: LandingFormComponent;
-  let fixture: ComponentFixture<LandingFormComponent>;
+describe('ModalDeCadastroComponent', () => {
+  let component: ModalDeCadastroComponent;
+  let fixture: ComponentFixture<ModalDeCadastroComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LandingFormComponent ]
+      declarations: [ ModalDeCadastroComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LandingFormComponent);
+    fixture = TestBed.createComponent(ModalDeCadastroComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

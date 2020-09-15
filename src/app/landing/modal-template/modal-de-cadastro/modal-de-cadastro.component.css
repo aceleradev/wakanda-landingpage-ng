@@ -1,0 +1,41 @@
+.modal-box {
+    background-color: black;
+    border: 1px solid #00FFFF;
+    color: white;
+}
+
+.modal-header {
+    border-style: none;
+}
+
+.modal-body {
+    color: inherit !important;
+    /* white-space: nowrap; */
+}
+
+.modal-body>.texto {
+    font-family: ErasDemiITC;
+    font-size: 23pt;
+}
+
+.modal-body>.sub-texto {
+    font-family: ErasDemiITC;
+    font-size: 12pt;
+}
+
+.modal-footer {
+    border-style: none;
+    color: inherit !important;
+}
+
+.modal-footer .btn {
+    background-color: #040489;
+    color: white;
+    font-family: ErasDemiITC;
+    font-size: 12pt;
+}
+
+#button {
+    width: 20%;
+    margin: 0 auto;
+}

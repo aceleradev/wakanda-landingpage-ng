@@ -1,0 +1,51 @@
+.navBackground {
+    background-color: #001228;
+}
+
+.button-contato, .button-login {
+    width: 5em;
+    margin: 0 3em 0 0;
+    text-transform: uppercase;
+    font-family: "Eras Demi ITC";
+    text-align: center;
+    font: size 10px;
+}
+.button-login {
+    width: 3.7em;
+    white-space: nowrap;
+}
+
+.button-preCadastro{
+    background-color: #000c7c;
+    font-family: "Eras Demi ITC";
+    border: none;
+    padding: 0.75em 1.5em;
+    margin-right: 1.25em;
+    text-transform: uppercase;
+}
+
+@media (max-width: 450px) 
+{
+    .caixa{
+        width: 100%;
+        margin:0 auto;
+    }
+
+  .button-contato, .button-login
+   {
+    margin: 0 1em 0 0;
+    white-space: nowrap;
+    margin-right: 1em;
+    padding: 0.5em 0;
+    font-size: 14px;
+   }
+   
+   .button-preCadastro
+   {
+    padding: 0.4em 0.5em;
+    margin: 0;
+    white-space: nowrap;
+    float: right;
+    font-size: 14px;
+   }
+}

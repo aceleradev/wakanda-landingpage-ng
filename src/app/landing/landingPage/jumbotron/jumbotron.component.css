@@ -1,33 +1,35 @@
-.custom-jumbotron{
- 
-   background: url('/assets/Background_2.png') no-repeat center;
-   background-size: cover;
-   display: flex;
-   align-items: flex-end;
-   height: 76vh; 
-   justify-content: center; 
+.custom-jumbotron {
+    background: url('/assets/image/Background_2.png') no-repeat center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    height: 76vh;
+    justify-content: center;
+}
 
+.texto {
+    margin-bottom: 18vh;
 }
-.texto{
-    margin-bottom: 20vh;
-}
-.texto  h1{
-    color:#2971ff;
-    text-align:center;
-    font-size: 129.9pt; 
-    font-family:  DecoturaICG;
-}
-.texto h2{
-    color:white ;
-    text-align:center;
-    font-size: 19px;
-    font-family:  'Eras Medium ITC';
-    margin-bottom: 96px;
 
+.texto h1 {
+    color: #2971ff;
+    text-align: center;
+    font-size: 92pt;
+    font-family: DecoturaICG;
+    margin-bottom: 0pt;
+    padding-bottom: 0pt;
 }
-.botao-jumb{
-    text-align:center;
-    color: #00062f;
+
+.texto h2 {
+    color: white;
+    text-align: center;
+    font-size: 21.5pt;
+    font-family: erasMedium;
+}
+
+.botao-jumb {
+    text-align: center;
+    margin-bottom: 4.5vh;
 }
 .botao-jumb > button{
     border: 2px solid blue ;
@@ -38,4 +40,15 @@
 }
 
 
+.botao-jumb>a {
+    border: 2px solid #6effd8;
+    border-radius: 8px;
+    border-width: 2px 6px;
+    background-color: #00062f;
+    padding: 2vh 4vh;
+    color: white;
+}
 
+.botao-jumb>a:hover {
+    box-shadow: 1px 1px 9px 1px #00FFFF; 
+}
