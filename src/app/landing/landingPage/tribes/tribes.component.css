@@ -1,3 +1,6 @@
+.acima-de-460px { display: inline; }
+.abaixo-de-460px { display: none; }
+
 @font-face {
     font-family: DecoturaICG;
     src: url('/assets/fontes/deconturaICG/decoturaicg-webfont.woff2') format('woff2'),
@@ -25,6 +28,25 @@
     /* padding: 1em; */
     /* retirado padding-bottom */
 }
+
+@media(max-width:560px) {
+    .acima-de-460px { display: none; }
+    .abaixo-de-460px { display: inline; }
+
+    .Titulo {
+        font-family: DecoturaICG;
+        font-size: 40pt;
+        text-align: center;
+        color: white;
+        padding-right: 1em;
+        padding-left: 1em;
+        padding-top: 1em;
+        /* padding: 1em; */
+        /* retirado padding-bottom */
+    }
+}
+
+
 
 img {
     position: relative;
@@ -61,4 +83,53 @@ img {
     cursor: pointer;
     /* border: 5px solid #0080FF; */
     box-shadow: 1px 1px 15px 1px #00FFFF; 
+}
+
+
+@media(max-width:560px) {
+    .acima-de-460px { display: none; }
+    .abaixo-de-460px { display: inline; }
+
+    img {
+        position: relative;
+        left: 8px;
+        top: 8px;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .img-special {
+    
+        position: relative;
+        left: 9px;
+        top: 9px;
+        height: 28px;
+        width: 28px;
+    
+    }
+    
+    .circle {
+
+        position: relative;
+        bottom: 40pt;
+        float: left;
+        overflow: hidden;
+        background-color: black;
+        border: 2px solid #00FFFF;
+        border-radius: 100%;
+        height: 50px;
+        width: 50px;
+        /* box-shadow: 1px 1px 9px 1px #00FFFF; */
+        transition: all .2s; /* aumenta de tamanho */
+    }
+    
+    .circle:hover {
+        backdrop-filter: brightness(100%);
+        cursor: pointer;
+        /* border: 5px solid #0080FF; */
+        box-shadow: 1px 1px 15px 1px #00FFFF; 
+    }
+
+
 }
