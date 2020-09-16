@@ -14,6 +14,6 @@ export class FormService {
   constructor(private http: HttpClient) { }
 
   enviarFormulario(preCadastro: PreCadastro) {
-    return this.http.post(API_URL + '', { preCadastro }, { observe: "response" });
+    return this.http.post("/public/" + '', JSON.stringify(preCadastro), { observe: "response" });
   }
 }

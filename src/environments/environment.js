@@ -2,10 +2,12 @@
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 const hostHome = 'https://wakanda-home-ng.herokuapp.com';
-const backEnd = "https://localhost:8080/wakanda/app/v1";
+const backEnd = "https://wakanda-academy-be.herokuapp.com";
+const validatedBackEnd = "/wakanda/app/v1";
 module.exports = {
   production: false,
   hostHome: hostHome,
+  apiUrl:backEnd,
   signUpUrl: `${hostHome}/signUp`,
   loginUrl: `${hostHome}/login`,
   preCadUrl: `${backEnd}/public/wakander/pre-registrattion`,

@@ -1,5 +1,5 @@
 export interface PreCadastro {
-    name: string,
-    telephone: string,
+    fullName: string,
+    cellPhoneNumber: string,
     email: string
 }
