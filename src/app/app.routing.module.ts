@@ -15,7 +15,10 @@ const routes: Routes = [
     },
 ];
 
-const routerOptions: ExtraOptions = { anchorScrolling: 'enabled', }
+const routerOptions: ExtraOptions = { 
+        anchorScrolling: 'enabled',
+        scrollPositionRestoration: 'top',
+    }
 
 @NgModule({
     imports: [RouterModule.forRoot(routes, routerOptions)],

@@ -18,7 +18,6 @@
               class="form-control form-control-sm " 
               id="nome" 
               placeholder="Digite seu nome aqui"
-              autofocus
               >
             <small
               *ngIf="signupForm.get('name').errors?.required"
@@ -34,7 +33,6 @@
                 class="form-control form-control-sm " 
                 id="telefone"
                 placeholder="(XX) XXXX-XXXX"
-                autofocus
               >
               <small
                 *ngIf="signupForm.get('telephone').errors?.required"
@@ -50,7 +48,6 @@
                 class="form-control form-control-sm rounded" 
                 id="email" 
                 placeholder="Digite seu email aqui"
-                autofocus
               >
               <small
                 *ngIf="signupForm.get('email').errors?.required" 
