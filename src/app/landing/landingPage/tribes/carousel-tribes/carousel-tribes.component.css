@@ -1,3 +1,5 @@
+.acima-de-460px { display: inline; }
+.abaixo-de-460px { display: none; }
 
 .logo {
     position: relative;
@@ -6,6 +8,20 @@
     width: 200px;
     bottom: 50px;
 }
+
+.novoTamanhoDaLogo {
+    width: 136px;
+    height: 160px;
+}
+
+.logo-2 {
+    position: relative;
+    align-items: center;
+    height: 180px;
+    width: 180px;
+    bottom: 50px;
+}
+
 .logo-4 {
     position: relative;
     align-items: center;
@@ -21,12 +37,32 @@
     bottom: 60px;
 }
 
+.logo-6 {
+    position: relative;
+    align-items: center;
+    height: 180px;
+    width: 150px;
+    bottom: 50px;
+}
+
+.logo-5 {
+    position: relative;
+    align-items: center;
+    height: 200px;
+    width: 170px;
+    bottom: 50px;
+}
+
+.row-entre-titulo-e-logo {
+    height: 150px;
+}
+
 .titulo {
     font-family: DecoturaICG;
     color: white;
     font-size: 43pt;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
     height: 55px;
 }
 
@@ -34,8 +70,8 @@
     font-family: ErasMedium;
     color: white;
     font-size: 10pt;
-    margin-top: 0;
-    padding-top: 0;
+    margin-top: 1px;
+    padding-top: 1px;
 }
 
 .habilidades {
@@ -75,4 +111,142 @@
 
 #descricao {
     color: white;
+}
+
+#row-inicial {
+    position: relative;
+}
+
+@media(max-width:770px) {
+    .titulo {
+        font-family: DecoturaICG;
+        color: white;
+        font-size: 33pt;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 55px;
+    }
+
+    .sub-titulo {
+        font-family: ErasMedium;
+        color: white;
+        font-size: 10pt;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 0;
+    }
+}
+
+@media(max-width:560px) {
+    .acima-de-460px { display: none; }
+    .abaixo-de-460px { display: inline; }
+
+    .titulo {
+        font-family: DecoturaICG;
+        color: white;
+        font-size: 30pt;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 55px;
+    }
+
+    .sub-titulo {
+        font-family: ErasMedium;
+        color: white;
+        font-size: 9pt;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+}
+
+@media(max-width: 415px) {
+    .acima-de-460px { display: none; }
+    .abaixo-de-460px { display: inline; }
+
+    .logo {
+        width: 50%;
+        width: 200px;
+        height: 200px;
+    }
+
+    .row-entre-titulo-e-logo {
+        height: 100px;
+    }
+
+    .titulo {
+        font-family: DecoturaICG;
+        color: white;
+        font-size: 33pt;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 55px;
+    }
+
+    .sub-titulo {
+        font-family: ErasMedium;
+        color: white;
+        font-size: 10pt;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    .margem {
+        margin-right: 1.5rem !important;
+    }
+
+    #descricao {
+        display: none;
+        text-align: justify;
+        font-size: 10pt;
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+        margin-right: .25rem
+    }
+
+    #slide {
+        margin: .0rem !important;
+    }
+
+
+    #icone-titulo-sub-titulo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media(max-width:370px) {
+    #descricao {
+        display: inline;
+    }
+}
+
+@media(max-width:325px) {
+    .acima-de-460px { display: none; }
+    .abaixo-de-460px { display: inline; }
+
+    .titulo {
+        font-family: DecoturaICG;
+        color: white;
+        font-size: 30pt;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 55px;
+    }
+
+    .sub-titulo {
+        font-family: ErasMedium;
+        color: white;
+        font-size: 9pt;
+        text-align: center;
+        margin-top: 4px;
+    }
+
 }

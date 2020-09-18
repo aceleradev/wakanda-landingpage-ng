@@ -1,0 +1,14 @@
+{
+    "/wakanda/app/v1/*": {
+        "target": "https://wakanda-academy-be.herokuapp.com",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    },
+    "/public/*": {
+        "target": "https://wakanda-academy-be.herokuapp.com",
+        "secure": false,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}
