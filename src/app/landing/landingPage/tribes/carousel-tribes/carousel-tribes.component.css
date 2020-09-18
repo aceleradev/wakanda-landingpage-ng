@@ -17,9 +17,10 @@
 .logo-2 {
     position: relative;
     align-items: center;
-    height: 180px;
-    width: 180px;
+    height: 150px;
+    width: 150px;
     bottom: 50px;
+    margin-top: 20px;
 }
 
 .logo-4 {
@@ -27,21 +28,6 @@
     align-items: center;
     height: 200px;
     width: 170px;
-    bottom: 50px;
-}
-.logo-7{
-    position: relative;
-    align-items: center;
-    height: 200px;
-    width: 170px;
-    bottom: 60px;
-}
-
-.logo-6 {
-    position: relative;
-    align-items: center;
-    height: 180px;
-    width: 150px;
     bottom: 50px;
 }
 
@@ -53,11 +39,36 @@
     bottom: 50px;
 }
 
+.logo-6 {
+    position: relative;
+    align-items: center;
+    height: 180px;
+    width: 150px;
+    bottom: 50px;
+}
+
+.logo-7{
+    position: relative;
+    align-items: center;
+    height: 180px;
+    width: 150px;
+    bottom: 60px;
+}
+
 .row-entre-titulo-e-logo {
     height: 150px;
 }
 
 .titulo {
+    font-family: DecoturaICG;
+    color: white;
+    font-size: 43pt;
+    margin-bottom: 1px;
+    padding-bottom: 1px;
+    height: 55px;
+}
+
+.titulo-guarda-real {
     font-family: DecoturaICG;
     color: white;
     font-size: 43pt;
@@ -128,6 +139,15 @@
         height: 55px;
     }
 
+    .titulo-guarda-real {
+        font-family: DecoturaICG;
+        color: white;
+        font-size: 33pt;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
     .sub-titulo {
         font-family: ErasMedium;
         color: white;
@@ -152,10 +172,20 @@
         height: 55px;
     }
 
+    .titulo-guarda-real {
+        font-family: DecoturaICG;
+        color: white;
+        font-size: 30pt;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 55px !important;
+    }
+
     .sub-titulo {
         font-family: ErasMedium;
         color: white;
-        font-size: 9pt;
+        font-size: 8pt;
         text-align: center;
         margin-top: 20px;
         padding-top: 20px;
@@ -166,10 +196,15 @@
     .acima-de-460px { display: none; }
     .abaixo-de-460px { display: inline; }
 
-    .logo {
-        width: 50%;
-        width: 200px;
-        height: 200px;
+    .logo .logo-2 .logo-4 .logo-5 .logo-6 .logo-7 .novoTamanhoDaLogo{
+        width: 50% !important;
+        /* width: 200px;
+        height: 200px; */
+    }
+
+    .logo-2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 
     .row-entre-titulo-e-logo {
@@ -184,6 +219,16 @@
         margin-bottom: 0;
         padding-bottom: 0;
         height: 55px;
+    }
+
+    .titulo-guarda-real {
+        font-family: DecoturaICG;
+        color: white;
+        font-size: 30pt;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 100px !important;
     }
 
     .sub-titulo {
@@ -222,6 +267,10 @@
 }
 
 @media(max-width:370px) {
+    .titulo-guarda-real {
+        height: 150px !important;
+    }
+
     #descricao {
         display: inline;
     }
@@ -230,6 +279,16 @@
 @media(max-width:325px) {
     .acima-de-460px { display: none; }
     .abaixo-de-460px { display: inline; }
+
+    .titulo-guarda-real {
+        font-family: DecoturaICG;
+        color: white;
+        font-size: 30pt;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        height: 150px !important;
+    }
 
     .titulo {
         font-family: DecoturaICG;
